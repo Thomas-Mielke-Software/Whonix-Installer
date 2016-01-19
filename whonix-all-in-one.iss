@@ -42,12 +42,12 @@ Compression=lzma2/ultra64
 ;TODO Source: .\Images\Logo_48x48.ico; DestDir: {app};
     
 ; WINDOWS HOTFIX
-Source: .\Package\VirtualBox-{#VIRTUALBOX_VERSION}-Win.exe; DestDir: {tmp}
-Source: .\Package\Whonix-Gateway-{#VERSION}.ova; DestDir: {tmp}
+;Source: .\Package\VirtualBox-{#VIRTUALBOX_VERSION}-Win.exe; DestDir: {tmp}
+;Source: .\Package\Whonix-Gateway-{#VERSION}.ova; DestDir: {tmp}
 ;Source: .\Package\Whonix-Workstation-{#VERSION}.ova; DestDir: {tmp}
 
 [Run]  
 ; install Virtual Box images                                        
-Filename: {tmp}\VirtualBox-{#VIRTUALBOX_VERSION}-Win.exe; Flags:  shellexec waituntilterminated
-Filename: {tmp}\Whonix-Gateway-{#VERSION}.ova; Flags:  shellexec 
-;Filename: {tmp}\Whonix-Workstation-{#VERSION}.ova; Flags:  shellexec waituntilterminated
+Filename: {src}\VirtualBox-{#VIRTUALBOX_VERSION}-Win.exe; Flags:  shellexec waituntilterminated
+Filename: {src}\Whonix-Gateway-{#VERSION}.ova; Flags:  shellexec 
+Filename: {src}\Whonix-Workstation-{#VERSION}.ova; Flags:  shellexec waituntilterminated

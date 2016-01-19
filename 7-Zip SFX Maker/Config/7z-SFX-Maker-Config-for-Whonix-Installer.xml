@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Settings>
+  <General>
+    <ExtractMode>Temp</ExtractMode>
+    <HideProgress>False</HideProgress>
+    <ProgressDisableCancel>False</ProgressDisableCancel>
+    <SelfDelete>False</SelfDelete>
+    <CompressStub>True</CompressStub>
+    <XPStyles>True</XPStyles>
+    <HideTitleIcon>False</HideTitleIcon>
+    <PromptShowSFXIcon>False</PromptShowSFXIcon>
+    <Overwrite>All</Overwrite>
+    <MessageBegin Show="False">Start extraction</MessageBegin>
+    <MessageCancel Show="False">Are you sure you want to cancel?</MessageCancel>
+    <MessageFinish Show="False">Files were successfully extracted</MessageFinish>
+    <TitleText>7-ZIP SFX archive</TitleText>
+    <ExtractPathText>Select extraction path</ExtractPathText>
+    <ExtractCancelText>Abort</ExtractCancelText>
+    <ExtractDialogText />
+    <ExtractTitleText>Extracting</ExtractTitleText>
+    <ExtractShowIcon>False</ExtractShowIcon>
+    <ProgressPercent>-1</ProgressPercent>
+    <ProgressShowIcon>False</ProgressShowIcon>
+    <Icon />
+  </General>
+  <Tasks>
+    <Item Enabled="True">RunProgram="hidcon:\"%%T\\WhonixWinSetup-12.0.0.3.2.exe\""</Item>
+    <Item Enabled="True">Delete="%%T\\WhonixWinSetup-12.0.0.3.2.exe"</Item>
+    <Item Enabled="True">Delete="%%T\\VirtualBox-5.0.12-104815-Win.exe"</Item>
+    <Item Enabled="True">Delete="%%T\\Whonix-Gateway-12.0.0.3.2.ova"</Item>
+    <Item Enabled="True">Delete="%%T\\Whonix-Workstation-12.0.0.3.2.ova"</Item>
+  </Tasks>
+  <VersionString>
+    <Item Name="Comments" Value="" Enabled="True" />
+    <Item Name="CompanyName" Value="Oleg N. Scherbakov" Enabled="True" />
+    <Item Name="FileDescription" Value="7z Setup SFX" Enabled="True" />
+    <Item Name="FileVersion" Value="1, 2, 0, 715" Enabled="True" />
+    <Item Name="InternalName" Value="7zSfxNew" Enabled="True" />
+    <Item Name="LegalCopyright" Value="Copyright © 2005-2007 Oleg N. Scherbakov" Enabled="True" />
+    <Item Name="LegalTrademarks" Value="" Enabled="True" />
+    <Item Name="OriginalFilename" Value="7zSfxNew.exe" Enabled="True" />
+    <Item Name="PrivateBuild" Value="July 14, 2007" Enabled="True" />
+    <Item Name="ProductName" Value="7ZSfxNew" Enabled="True" />
+    <Item Name="ProductVersion" Value="1, 2, 0, 715" Enabled="True" />
+    <Item Name="SpecialBuild" Value="" Enabled="True" />
+  </VersionString>
+</Settings>
